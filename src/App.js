@@ -4,6 +4,7 @@ import { UserInputContext } from './contexts/UserInputContext'
 import AgePage from './pages/AgePage'
 import HomePage from './pages/HomePage'
 import InterestPage from './pages/InterestPage'
+import QuestionPage from './pages/QuestionPage'
 import RelationshipPage from './pages/RelationshipPage'
 import ResultPage from './pages/ResultPage'
 
@@ -32,7 +33,9 @@ function App() {
               <Route path="/result">
                 <ResultPage />
               </Route>
-              <Route path="/relationship">
+              <Route path="/:pageName" component={QuestionPage} />
+              
+              {/* <Route path="/relationship">
                 <RelationshipPage/>
               </Route>
               <Route path="/interest">
@@ -40,7 +43,7 @@ function App() {
               </Route>
               <Route path="/age">
                 <AgePage />
-              </Route>
+              </Route> */}
               <Route path="/">
                 <HomePage />
               </Route>
