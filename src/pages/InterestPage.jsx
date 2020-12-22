@@ -1,9 +1,10 @@
-import React, {useState} from 'react'
+import React, {useContext} from 'react'
 import ButtonNext from '../components/ButtonNext'
 import RadioButton from '../components/RadioButton'
+import { UserInputContext } from '../contexts/UserInputContext'
 
 export default function InterestPage() {
-  const [interest, setInterest] = useState("")
+  const {interest, setInterest} = useContext(UserInputContext)
   
   function handleOnChange(e) {
     setInterest(e.target.value)

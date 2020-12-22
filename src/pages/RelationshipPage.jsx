@@ -1,29 +1,27 @@
 import React, {useContext} from 'react'
-import { Link } from 'react-router-dom'
-import ButtonNext from '../components/ButtonNext'
 import RadioButton from '../components/RadioButton'
+import ButtonNext from '../components/ButtonNext'
 import { UserInputContext } from '../contexts/UserInputContext'
 
-export default function AgePage() {
-
-  const {age, setAge} = useContext(UserInputContext)
+export default function RelationshipPage() {
+  const {relationship, setRelationship} = useContext(UserInputContext)
   
   function handleOnChange(e) {
-    setAge(e.target.value)
+    setRelationship(e.target.value)
   }
 
-  const pageName = "age"
-  const currentValue = age
+  const pageName = "relationship"
+  const currentValue = relationship
 
   const pageData = [
-    {value: "a", label: "Younger than 25 🐣"},
-    {value: "b", label: "Between 25 and 50"},
-    {value: "c", label: "Older than 50"},
+    {value: "a", label: "Parent"},
+    {value: "b", label: "Sibling"},
+    {value: "c", label: "Other"},
   ]
 
   return (
     <div>
-      <h2>Age</h2>
+      <h2>Relationship</h2>
 
       {pageData.map((item, index) => {
         return <RadioButton key={index}
@@ -33,9 +31,9 @@ export default function AgePage() {
       })}
 
       <ButtonNext
-        to="/interest"
+        to="/result"
         currentValue={currentValue}
-        label="Move along to interest page"
+        label="Lets see your result"
       />
 
     </div>
