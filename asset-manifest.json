@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/webb20-js-lesson-holiday-gift-generator/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/webb20-js-lesson-holiday-gift-generator/static/js/main.99e7f630.chunk.js",
+    "main.js.map": "/webb20-js-lesson-holiday-gift-generator/static/js/main.99e7f630.chunk.js.map",
+    "runtime-main.js": "/webb20-js-lesson-holiday-gift-generator/static/js/runtime-main.5c8a0149.js",
+    "runtime-main.js.map": "/webb20-js-lesson-holiday-gift-generator/static/js/runtime-main.5c8a0149.js.map",
+    "static/css/2.95f25948.chunk.css": "/webb20-js-lesson-holiday-gift-generator/static/css/2.95f25948.chunk.css",
+    "static/js/2.aeb0212d.chunk.js": "/webb20-js-lesson-holiday-gift-generator/static/js/2.aeb0212d.chunk.js",
+    "static/js/2.aeb0212d.chunk.js.map": "/webb20-js-lesson-holiday-gift-generator/static/js/2.aeb0212d.chunk.js.map",
+    "static/js/3.002fd810.chunk.js": "/webb20-js-lesson-holiday-gift-generator/static/js/3.002fd810.chunk.js",
+    "static/js/3.002fd810.chunk.js.map": "/webb20-js-lesson-holiday-gift-generator/static/js/3.002fd810.chunk.js.map",
+    "index.html": "/webb20-js-lesson-holiday-gift-generator/index.html",
+    "static/css/2.95f25948.chunk.css.map": "/webb20-js-lesson-holiday-gift-generator/static/css/2.95f25948.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/webb20-js-lesson-holiday-gift-generator/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.aeb0212d.chunk.js.LICENSE.txt": "/webb20-js-lesson-holiday-gift-generator/static/js/2.aeb0212d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5c8a0149.js",
+    "static/css/2.95f25948.chunk.css",
+    "static/js/2.aeb0212d.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.99e7f630.chunk.js"
+  ]
+}
