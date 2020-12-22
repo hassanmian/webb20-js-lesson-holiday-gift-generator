@@ -11,15 +11,16 @@ export default function PageGenerator({data, stateGetter, stateSetter}) {
   return (
     <div>
       <h2>{data.heading}</h2>
-
       {data.alternatives.map((item, index) => {
-        return <RadioButton key={index}
-          name={data.name} 
-          value={item.value} 
-          onChange={handleOnChange} 
-          currentValue={stateGetter}
-          label={item.label}
-        />
+        return (
+          <RadioButton key={`${data.name}-${index}`}
+            name={data.name} 
+            value={item.value} 
+            onChange={handleOnChange} 
+            currentValue={stateGetter}
+            label={item.label}
+          />
+        )
       })}
 
       <ButtonNext
