@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import { Switch, Route } from 'react-router-dom'
+import ButtonNext from './components/ButtonNext'
 import { UserInputContext } from './contexts/UserInputContext'
 import AgePage from './pages/AgePage'
 import HomePage from './pages/HomePage'
